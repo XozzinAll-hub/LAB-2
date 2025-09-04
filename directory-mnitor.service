@@ -1,0 +1,18 @@
+[Unit]
+Description=Servicio de Monitoreo de Cambios en Directorios
+After=network.target
+Requires=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/bin/bash /home/$USER/ejercicio3.sh
+WorkingDirectory=/home/$USER
+Restart=always
+RestartSec=5
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=directory-monitor
+
+[Install]
+WantedBy=multi-user.target
