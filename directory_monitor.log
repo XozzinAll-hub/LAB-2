@@ -1,0 +1,14 @@
+monitoreo del directorio: /home/All/monitor_dir
+[Thu Sep  4 02:47:17 AM UTC 2025] Se Elimino un archivo: /home/All/monitor_dir/directory_monitor.log
+[Thu Sep  4 02:47:21 AM UTC 2025] Se Elimino un archivo: /home/All/monitor_dir/test1.txt
+[Thu Sep  4 02:47:24 AM UTC 2025] Se Elimino un archivo: /home/All/monitor_dir/test2.txt
+[Thu Sep  4 02:47:32 AM UTC 2025] evento inesperado: /home/All/monitor_dir/test1.txt (CREATE,ISDIR)
+monitoreo del directorio: /home/All/monitor_dir
+[Thu Sep  4 02:50:35 AM UTC 2025] Un Archivo fue creado: /home/All/monitor_dir/asdad
+[Thu Sep  4 02:50:35 AM UTC 2025] Se Modifico un archivo: /home/All/monitor_dir/asdad
+[Thu Sep  4 02:50:35 AM UTC 2025] Un Archivo fue creado: /home/All/monitor_dir/.asdad.swp
+[Thu Sep  4 02:50:35 AM UTC 2025] Se Modifico un archivo: /home/All/monitor_dir/.asdad.swp
+[Thu Sep  4 02:50:35 AM UTC 2025] Se Elimino un archivo: /home/All/monitor_dir/.asdad.swp
+[Thu Sep  4 02:50:50 AM UTC 2025] Se Elimino un archivo: /home/All/monitor_dir/asdad
+[Thu Sep  4 02:51:46 AM UTC 2025] evento inesperado: /home/All/monitor_dir/test1.txt (DELETE,ISDIR)
+monitoreo del directorio: /home/All/monitor_dir
