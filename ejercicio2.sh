@@ -49,6 +49,7 @@ plot "monitor.log" using 2:xtic(1) with lines title 'CPU%', \
      "monitor.log" using 3 with lines title 'Mem%'
 EOF
 
+gnuplot grafico.gp
 if command -v gnuplot >/dev/null 2>&1; then
     if gnuplot grafico.gp; then
         echo "Gráfico creado: grafico.png"
@@ -56,7 +57,7 @@ if command -v gnuplot >/dev/null 2>&1; then
         echo "Error al generar el gráfico"
 fi
 
-#rm -f grafico.gp
+rm -f grafico.gp
 
 # Mostrar los datos capturados
 echo "Datos registrados en $logs:"
